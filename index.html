@@ -1,9 +1,42 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-full" style="font-family: 'Roboto', sans-serif;">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <script type="module" src="./application.js"></script>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    </style>
   </head>
+
+
+  <!--
+    √ get an image loading
+    show text of event
+
+    show "generated on Midjourney with a link to them"
+
+    add js to hide or show text of the event
+
+    add js to cycle through images
+  -->
+  <body class="relative h-full bg-gray-900 flex justify-center">
+    <div class="h-full flex justify-center items-center">
+      <img class="h-full" src="/images/bike.jpg" alt="bike">
+    </div>
+
+    <div class="absolute top-[20%] text-white text-2xl">
+      <div class="p-3" style="background-color: rgba(0,0,0, 0.4)">
+        Happy Hour
+      </div>
+    </div>
+  </body>
 </html>
