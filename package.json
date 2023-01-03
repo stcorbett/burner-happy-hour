@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "http://stcorbett.github.io/burner-happy-hour",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.1",
+    "tailwindcss": "^3.2.4"
+  }
+}
