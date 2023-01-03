@@ -20,17 +20,18 @@
 
   <!--
     √ get an image loading
-    show text of event
+    √ show text of event
+    √ add js to randomly load images
 
     show "generated on Midjourney with a link to them"
 
     add js to hide or show text of the event
 
-    add js to cycle through images
+    add js to manually click through images
   -->
-  <body class="relative h-full bg-gray-900 flex justify-center">
+  <body class="relative h-full bg-gray-900 flex justify-center" data-controller="image-picker">
     <div class="h-full flex justify-center items-center">
-      <img class="h-full" src="./images/bike.jpg" alt="bike">
+      <img class="h-full" src="./images/bike.jpg" alt="bike" data-image-picker-target="bg">
     </div>
 
     <div class="absolute top-[20%] text-white text-2xl">
